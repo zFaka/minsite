@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import ReactCollapseSimple from "react-collapse-simple";
-import {BioScreenSection3} from '../screens/bio/sections/BioScreenSection3';
 
 
 export const BioSection = () => {
@@ -24,8 +23,6 @@ export const BioSection = () => {
 
 
       <ReactCollapseSimple isOpen={isOpen}>
-        {/*<BioScreenSection3/>*/}
-
         <div className='center'>
           <p className='bio-p' style={{marginTop:'0'}}>                
             Focused on <strong>growing</strong> your business
