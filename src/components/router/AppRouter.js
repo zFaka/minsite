@@ -2,6 +2,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
+  HashRouter, 
   Redirect,
   Route,
 } from "react-router-dom";
@@ -16,7 +17,7 @@ export const AppRouter = () => {
   return (
     <Router>
       <div>
-        <Switch>
+          <HashRouter>
           <Route 
             exact 
             path="/blog" 
@@ -42,7 +43,7 @@ export const AppRouter = () => {
           />
 
           <Redirect to='/'/>
-        </Switch>
+          </HashRouter>
       </div>
     </Router>
   )}
