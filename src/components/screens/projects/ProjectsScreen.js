@@ -18,7 +18,6 @@ const { items } = state;
 export const ProjectsScreen = () => (
   <ReactFullpage
     render={({ state, fullpageApi }) => {
-
       return (
         <ReactFullpage.Wrapper>
           <div className="section bc-section" style={{backgroundColor:'black'}}>

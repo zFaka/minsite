@@ -12,7 +12,7 @@ export const BioScreenSection2 = () => {
   return(
     <>
       <div className='center'>
-        <p className='bio-clps' onClick={() => {setIsOpen1(!isOpen1); setIsOpen2(false)}} style={{cursor:'pointer'}}> 
+        <p className='bio-clps wow-at-third-sight' onClick={() => {setIsOpen1(!isOpen1); setIsOpen2(false)}} style={{cursor:'pointer'}}> 
           <strong>Frontend</strong>
         </p>
 
@@ -21,7 +21,7 @@ export const BioScreenSection2 = () => {
           <p className='bio-p' >Figma, Sass, Flexbox, FullpageJS</p>
         </ReactCollapseSimple>
 
-        <p className='bio-clps' style={{marginTop:'10vh', cursor:'pointer'}} onClick={() => {setIsOpen2(!isOpen2); setIsOpen1(false)}}>                
+        <p className='bio-clps wow-at-third-sight' style={{marginTop:'10vh', cursor:'pointer'}} onClick={() => {setIsOpen2(!isOpen2); setIsOpen1(false)}}>                
           <strong>Backend</strong>
         </p>
         <ReactCollapseSimple isOpen={isOpen2}>

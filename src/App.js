@@ -1,10 +1,9 @@
-import './App.css';
-import {AppRouter} from './components/router/AppRouter';
+import {FullpageTemplate} from './components/FullpageTemplate';
 
 function App() {
   return (
       <div className="App">
-        <AppRouter/>
+        <FullpageTemplate/>
       </div>
 
   );

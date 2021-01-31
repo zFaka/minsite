@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
-import {ProjectsSection} from './sections/ProjectsSection';
 import {BioSection} from './sections/BioSection';
-import {BlogSection} from './sections/BlogSection';
+import {BioScreenSection1} from './screens/bio/sections/BioScreenSection1';
+import {BioScreenSection2} from './screens/bio/sections/BioScreenSection2';
+import {ProjectsSection} from './sections/ProjectsSection';
 
-const anchors = ["bio", "projects", "blog"];
 export const FullpageTemplate = () => (
   <ReactFullpage
     navigation
-    anchors={anchors}
-    scrollingSpeed = {555} /* Options here */
+    anchors={['section1', 'section2', 'section3', 'section4']}
+    scrollingSpeed = {500} /* Options here */
 
     render={({ state, fullpageApi }) => {
       return (
@@ -18,11 +18,22 @@ export const FullpageTemplate = () => (
             <BioSection/>
           </div>
           <div className="section bc-section">
+            <BioScreenSection1/>
+          </div>
+          <div className="section bc-section">
+            <BioScreenSection2/>
+          </div>
+          <div className="section bc-section">
             <ProjectsSection/>
           </div>
+
+
+
+          {/*
           <div className="section bc-section">
             <BlogSection/>
           </div>
+          */}
         </ReactFullpage.Wrapper>
       );
     }}

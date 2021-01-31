@@ -26,118 +26,40 @@ code {
   justify-content: center;
 }
 
+.galrjd {
+  width: 55% !important;
+}
 
-
-
-@media screen 
-and (min-device-width: 1200px) 
-and (max-device-width: 1600px) 
-and (-webkit-min-device-pixel-ratio: 1) { 
-
-  .galrjd {
-    width: 55% !important;
-  }
-
-  .tXlBS{
-    font-weight: 900;
-    font-size: 6vw;
-  }
-
-  .wow-at-first-sight {
-  font-size: 20vw;}
-  .wow-at-second-sight {
-  font-size: 10vw}
-  .wow-at-third-sight {
-  font-size: 10vw}
-
-  .icon-sz{
-    font-size: 4vw;
-  }
-
-  .bio-p{
-    font-size: 3vw ;
-  }
-
-  .bio-title{
-    font-size: 9vw ;
-    margin: 20px;
-  }
-  .center{
-    width: 50%;
-  }
-  .bio-app{
-    font-size: 2.7vw;
-  }
-  .bio-mind{
-    font-size: 2.8vw;
-    margin:5px;
-  }
-  .bio-clps{
-    margin: 0;
-    font-size: 9vw;
-  }
+.tXlBS{
+  font-weight: 900;
+  font-size: 6vw;
 }
 
 
+.icon-sz{
+  font-size: 4vw;
+}
 
-@media only screen and (max-width: 600px) {
-  .galrjd {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    width: 100% !important;
-  }
+.bio-p{
+  font-size: 3vw ;
+}
 
-  .tXlBS{
-    font-weight: 900;
-    font-size: 10vw;
-  }
-
-  .wow-at-first-sight {
-  font-size: 35vw}
-  .wow-at-second-sight {
-  font-size: 20vw}
-  .wow-at-third-sight {
-  font-size: 20vw}
-
-  #fp-nav.fp-right {
-    display:none !important;
-  }
-
-  .icon-sz{
-    font-size: 10vw;
-  }
-
-  .bio-p{
-    font-size: 6vw ;
-  }
-
-  .bio-title{
-    font-size: 10vw ;
-    margin: 20px;
-  }
-  .center{
-    width: 95%;
-  }
-  .bio-app{
-    font-size: 5.3vw;
-  } .bio-mind{
-    font-size: 5.5vw;
-    margin:5px;
-  }
-  .bio-clps{
-    margin: 0;
-    font-size: 20vw;
-  }
+.bio-title{
+  font-size: 9vw ;
+  margin: 20px;
+}
+.bio-mind{
+  font-size: 2.8vw;
+  margin:5px;
+}
+.bio-clps{
+  margin: 0;
+  font-size: 9vw;
 }
 
 /*Flechas*/
-  .lgksPe{display: none}
-  .iLquPE{display: none}
+.lgksPe{display: none}
+.iLquPE{display: none}
 
 /*bolas*/
 .guuruq{
@@ -146,7 +68,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
   width: 20px !important;
   margin: 18px !important;
 }
-
 .cJeRRR{
   box-shadow: 0 0 0px 0px black !important;
   background-color: white !important;
@@ -154,33 +75,11 @@ and (-webkit-min-device-pixel-ratio: 1) {
   width: 30px !important;
   margin: 13px !important;
 }
-
-.del-style{
-  text-decoration: none !important;
-  color:white;
-  background:none; 
-  outline: none; 
-  -webkit-appearance: none; 
-  box-shadow: none !important; 
-  border: none;
-  user-select: none;
+/*Espacio entre bolas y nombre de projectos*/
+.bkVSTc{
+  margin-top: 5vh !important;
 }
-
-.wow-at-first-sight {
-  font-weight: 1000;
-  transform: scale(1, .9);
-}
-
-.wow-at-second-sight {
-  font-weight: 1000;
-  transform: scale(1, .9);
-}
-
-.wow-at-third-sight {
-  font-weight: 1000;
-  transform: scale(1, .9);
-}
-
+/*Remover efectos de las bolas cuando haces hover*/
 .rec,.rec-carousel-item, .rec-carousel-item-0, .rec-carousel-item-visible :focus{
   background:none; 
   outline: none; 
@@ -189,16 +88,55 @@ and (-webkit-min-device-pixel-ratio: 1) {
   border: none;
 }
 
-#fp-nav ul li a span, .fp-slidesNav ul li a span{
-  background-color:white !important;
+
+
+/*Borrar estilos por default*/
+.del-style{
+  text-decoration: none !important;
+  color:white;
+  background:none; 
+  outline: none; 
+  -webkit-appearance: none; 
+  box-shadow: none !important; 
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-#fp-nav ul li:hover a.active span, #fp-nav ul li a.active span, .fp-slidesNav ul li:hover a.active span, .fp-slidesNav ul li a.active span{
-  height: 8px !important;
-  width: 8px !important;
-  margin: -3px 0 0 -3.5px !important;
+
+
+/*Secciones*/
+.wow-at-first-sight {
+  font-weight: 1000;
+  font-size: 95px;
+  transform: scale(1, .85);
+}
+.wow-at-second-sight {
+  font-weight: 666;
+  font-size: 60px;
+  transform: scale(1, .85);
+}
+.wow-at-third-sight{
+  font-weight: 333;
+  font-size: 40px;
+  transform: scale(1, .95);
 }
 
+
+
+/*#fp-nav ul li a span, .fp-slidesNav ul li a span{*/
+  /*background-color:white !important;*/
+/*}*/
+
+/*#fp-nav ul li:hover a.active span, #fp-nav ul li a.active span, .fp-slidesNav ul li:hover a.active span, .fp-slidesNav ul li a.active span{*/
+  /*height: 8px !important;*/
+  /*width: 8px !important;*/
+  /*margin: -3px 0 0 -3.5px !important;*/
+/*}*/
+
+/*Linkedin and Mail*/
 .social-container{
   display: flex;
   justify-content: space-around;
@@ -214,16 +152,26 @@ and (-webkit-min-device-pixel-ratio: 1) {
 .bio-p{
 margin: 0;}
 
-/*.order-li{*/
-  /*display: inline;*/
-  /*list-style-type: none;*/
-  /*float: center;*/
-/*}*/
-
-.bkVSTc{
-  margin-top: 5vh !important;
+ul {
+  list-style-type:none;
+  padding: 0;
 }
 
-/*.btn-hvr :hover {*/
-  /*color: grey;*/
-/*}*/
+.bc-section{
+  background: black;
+  color:white;
+}
+
+/*change size when click button*/
+.hide{
+  transform: scale(0.385);
+  transition-duration: 0.5s;
+}
+.show{
+  transform: scale(1, .95);
+  transition-duration: 0.5s;
+}
+.showTitle{
+  transform: scale(1, .85);
+  transition-duration: 0.5s;
+}

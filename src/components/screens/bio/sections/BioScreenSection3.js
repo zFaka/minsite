@@ -5,7 +5,6 @@ import {HiMail} from 'react-icons/hi';
 export const BioScreenSection3 = () => { return (
   <>
     <div className='center'>
-
       <p className='bio-p' style={{marginTop:'5px'}}>                
         Focused on <strong>growing</strong> your business
       </p>
@@ -15,6 +14,8 @@ export const BioScreenSection3 = () => { return (
       <p className='bio-p' style={{marginTop:'5px'}}>                
         NI's Philosophy practitioner
       </p>
+
+      {/*
       <div className='social-container icon-sz' style = {{
         position: "fixed",
         right: "-25px",
@@ -28,6 +29,7 @@ export const BioScreenSection3 = () => { return (
           <HiMail/>
         </a>
       </div>
+*/}
     </div>
   </>
 )
