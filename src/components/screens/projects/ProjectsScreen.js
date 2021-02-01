@@ -21,7 +21,7 @@ export const ProjectsScreen = () => (
       return (
         <ReactFullpage.Wrapper>
           <div className="section bc-section" style={{backgroundColor:'black'}}>
-            <Carousel display='flex'>
+            <Carousel display='flex' showArrows={false}>
               {items.map(item => <div key={item.id}>
                 <a href={item.url} target="_blank" rel="noreferrer" className='del-style'>
                     {item.title}
