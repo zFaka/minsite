@@ -16,7 +16,7 @@ export const ProjectsSection = () => {
       <h1 
         className={`wow-at-second-sight del-style ${size}`}
         onClick={() => handleClick()}>
-        Projects 
+        Exp 
       </h1> 
 
 

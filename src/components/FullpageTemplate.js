@@ -2,7 +2,6 @@ import React from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import {BioSection} from './sections/BioSection';
 import {BioScreenSection1} from './screens/bio/sections/BioScreenSection1';
-import {BioScreenSection2} from './screens/bio/sections/BioScreenSection2';
 import {ProjectsSection} from './sections/ProjectsSection';
 
 export const FullpageTemplate = () => (
@@ -19,9 +18,6 @@ export const FullpageTemplate = () => (
           </div>
           <div className="section bc-section">
             <BioScreenSection1/>
-          </div>
-          <div className="section bc-section">
-            <BioScreenSection2/>
           </div>
           <div className="section bc-section">
             <ProjectsSection/>

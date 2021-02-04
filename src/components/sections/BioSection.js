@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import ReactCollapseSimple from "react-collapse-simple";
+import {FaLinkedinIn} from 'react-icons/fa';
+import {HiMail} from 'react-icons/hi';
 
 
 export const BioSection = () => {
@@ -9,7 +11,7 @@ export const BioSection = () => {
   const handleClick = () => {
     setIsOpen(!isOpen);
     if(isOpen === false)
-    {setSize('hide')} else {setSize('showTitle')}
+    {setSize('hide')} else {setSize('show')}
   };
 
   return (
@@ -23,18 +25,37 @@ export const BioSection = () => {
 
 
       <ReactCollapseSimple isOpen={isOpen}>
-        <div className='center'>
-          <p className='bio-p' style={{marginTop:'0'}}>                
-            Focused on <strong>growing</strong> your business
+        <div className='del-style mgz' onClick={() => handleClick()}>
+
+          <p className='exp' style={{marginTop:'0'}}>                
+            <strong>IT Consultant</strong> with <strong>+2</strong> yrs of experience
           </p>
-          <p className='bio-p bio-mind 'style={{marginTop:'5px'}}>
-            Technically minded, <strong>stoic</strong>, and <i>creative</i>
+
+          <p className='exp'style={{marginTop:'0'}}>
+            Technically minded, <strong>Stoic</strong> & <i>Creative</i>
           </p>
-          <p className='bio-p' style={{marginTop:'5px'}}>                
+
+          <p className='exp' style={{marginTop:'0'}}>                
+            Focused on <strong>Growing</strong> your business
+          </p>
+
+          <p className='exp' style={{marginTop:'0'}}>                
+            Dev for <strong>Increase</strong> your customers
+          </p>
+
+          <p className='exp' style={{marginTop:'0'}}>                
             NI's Philosophy practitioner
           </p>
+
         </div>
+          <div className='social-container'>
+            <a href='https://www.linkedin.com/in/facundo-arenas/' target="_blank" rel="noreferrer" className='del-style iconsz'>
+              <FaLinkedinIn/></a>
+            <a href='mailto:facundoarenas29@gmail.com' target="_blank" rel="noopener noreferrer" className='del-style iconsz'>
+              <HiMail/></a>
+          </div>
       </ReactCollapseSimple>
+
     </>
   )
 }

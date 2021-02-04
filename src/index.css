@@ -6,11 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  animation: fade-in 0.666s;
+  animation: fade-in .666s;
 }
 
 @keyframes fade-in {
-  from {opacity: 0;}
+  from {opacity: 0.666;}
   to {opacity: 1;}
 }
 
@@ -26,69 +26,9 @@ code {
   justify-content: center;
 }
 
-.galrjd {
-  width: 55% !important;
-}
-
-.tXlBS{
-  font-weight: 900;
-  font-size: 6vw;
-}
-
-
 .icon-sz{
   font-size: 4vw;
 }
-
-.bio-p{
-  font-size: 3vw ;
-}
-
-.bio-title{
-  font-size: 9vw ;
-  margin: 20px;
-}
-.bio-mind{
-  font-size: 2.8vw;
-  margin:5px;
-}
-.bio-clps{
-  margin: 0;
-  font-size: 9vw;
-}
-
-/*Flechas*/
-/*.lgksPe{display: none}*/
-/*.iLquPE{display: none}*/
-
-/*bolas*/
-.guuruq{
-  background-color: white !important;
-  height: 20px !important;
-  width: 20px !important;
-  margin: 18px !important;
-}
-.cJeRRR{
-  box-shadow: 0 0 0px 0px black !important;
-  background-color: white !important;
-  height: 30px !important;
-  width: 30px !important;
-  margin: 13px !important;
-}
-/*Espacio entre bolas y nombre de projectos*/
-.bkVSTc{
-  margin-top: 5vh !important;
-}
-/*Remover efectos de las bolas cuando haces hover*/
-.rec,.rec-carousel-item, .rec-carousel-item-0, .rec-carousel-item-visible :focus{
-  background:none; 
-  outline: none; 
-  -webkit-appearance: none; 
-  box-shadow: none !important; 
-  border: none;
-}
-
-
 
 /*Borrar estilos por default*/
 .del-style{
@@ -114,7 +54,7 @@ code {
   transform: scale(1, .85);
 }
 .wow-at-second-sight {
-  font-weight: 666;
+  font-weight: 555;
   font-size: 60px;
   transform: scale(1, .85);
 }
@@ -122,26 +62,17 @@ code {
   font-weight: 333;
   font-size: 40px;
   transform: scale(1, .95);
+  margin: 5px
 }
 
 
 
-/*#fp-nav ul li a span, .fp-slidesNav ul li a span{*/
-  /*background-color:white !important;*/
-/*}*/
-
-/*#fp-nav ul li:hover a.active span, #fp-nav ul li a.active span, .fp-slidesNav ul li:hover a.active span, .fp-slidesNav ul li a.active span{*/
-  /*height: 8px !important;*/
-  /*width: 8px !important;*/
-  /*margin: -3px 0 0 -3.5px !important;*/
-/*}*/
-
 /*Linkedin and Mail*/
 .social-container{
+  margin-top: 50px;
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin: 24px;
 }
 
 .center{
@@ -149,29 +80,38 @@ code {
   margin: 0 auto;
 }
 
-.bio-p{
-margin: 0;}
-
-ul {
-  list-style-type:none;
-  padding: 0;
-}
-
 .bc-section{
   background: black;
   color:white;
 }
 
+/*projects*/
+.proj{
+  font-size: 33px;
+  margin-top: 8px;
+}
+
+/*Bolas laterales*/
+#fp-nav.fp-right {
+  right: 0px !important;
+}
+
+/*font-size*/
+.exp{font-size: 18px;}
+
+
+
 /*change size when click button*/
 .hide{
-  transform: scale(0.385);
-  transition-duration: 0.5s;
-}
+  transform: scale(0.33);
+transition-duration: 0.5s;}
 .show{
-  transform: scale(1, .95);
-  transition-duration: 0.5s;
-}
-.showTitle{
   transform: scale(1, .85);
-  transition-duration: 0.5s;
+transition-duration: 0.5s;}
+
+.iconsz{
+  font-size:2rem
+} 
+.mgz{
+  margin-top: 0;
 }
