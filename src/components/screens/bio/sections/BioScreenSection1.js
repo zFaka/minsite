@@ -17,6 +17,7 @@ import {GrMysql} from "react-icons/gr";
 import {SiNetlify} from "react-icons/si";
 import {DiHeroku} from "react-icons/di";
 import {DiLinux} from "react-icons/di";
+import {SiPostman} from "react-icons/si";
 
 
 export const BioScreenSection1 = () => {
@@ -150,7 +151,8 @@ export const BioScreenSection1 = () => {
                 <GrMysql/>{` `}
                 <SiNetlify/>{` `}
                 <DiHeroku/>{` `}
-                <DiLinux/>
+                <DiLinux/>{` `}
+                <SiPostman/>
               </div>
             </div>
           </ReactCollapseSimple>
