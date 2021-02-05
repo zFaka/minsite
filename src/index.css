@@ -108,10 +108,17 @@ transition-duration: 0.5s;}
 .show{
   transform: scale(1, .85);
 transition-duration: 0.5s;}
+.subhide{
+  transform: scale(0.585);
+transition-duration: 0.5s;}
 
+/*icon size*/
 .iconsz{
   font-size:2rem
 } 
-.mgz{
-  margin-top: 0;
+
+/*icon margin top*/
+.mgne{
+  margin-top: -0.5rem; 
 }
+

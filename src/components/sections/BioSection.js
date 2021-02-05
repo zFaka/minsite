@@ -48,12 +48,12 @@ export const BioSection = () => {
           </p>
 
         </div>
-          <div className='social-container'>
-            <a href='https://www.linkedin.com/in/facundo-arenas/' target="_blank" rel="noreferrer" className='del-style iconsz'>
-              <FaLinkedinIn/></a>
-            <a href='mailto:facundoarenas29@gmail.com' target="_blank" rel="noopener noreferrer" className='del-style iconsz'>
-              <HiMail/></a>
-          </div>
+        <div className='social-container'>
+          <a href='https://www.linkedin.com/in/facundo-arenas/' target="_blank" rel="noreferrer" className='del-style iconsz'>
+            <FaLinkedinIn/></a>
+          <a href='mailto:facundoarenas29@gmail.com' target="_blank" rel="noopener noreferrer" className='del-style iconsz'>
+            <HiMail/></a>
+        </div>
       </ReactCollapseSimple>
 
     </>
