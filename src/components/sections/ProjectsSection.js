@@ -142,9 +142,6 @@ export const ProjectsSection = () => {
                   Redux to manage the state
                 </li>
                 <li>
-                  JWT to keep the session for a time
-                </li>
-                <li>
                   Firebase to create the database
                 </li>
               </ul>
