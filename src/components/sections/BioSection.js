@@ -28,7 +28,7 @@ export const BioSection = () => {
         <div className='del-style mgz' onClick={() => handleClick()}>
 
           <p className='exp' style={{marginTop:'0'}}>                
-            <strong>IT Consultant</strong> with <strong>+2</strong> yrs of experience
+            <strong>IT Consultant</strong> with <strong>+3</strong> yrs of experience
           </p>
 
           <p className='exp'style={{marginTop:'0'}}>
